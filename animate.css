@@ -1,0 +1,145 @@
+/* Animations for background and lighting */
+@keyframes body {
+  0%, 40%, 100% {
+    background: #212121;
+  }
+  50%, 90% {
+    background: #01579B;
+  }
+}
+
+@keyframes background {
+  0%, 40%, 100% {
+    fill: #424242;
+  }
+  50%, 90% {
+    fill: #2196F3;
+  }
+}
+
+@keyframes shade {
+  0%, 40%, 100% {
+    fill: #212121;
+  }
+  50%, 90% {
+    fill: #1A237E;
+  }
+}
+
+/* Animations for thsitg's logo */
+@keyframes thsitg-mouse {
+  0%, 42%, 98% {
+    transform: scale(1) rotate(0deg);
+    box-shadow: 0 4px 4px rgba(255,0,0,1);
+  }
+  
+  44%, 96% {
+    box-shadow: 0 0px 0px rgba(0,0,0,1);
+  }
+  
+  45%, 95% {
+    transform: scale(0) rotate(180deg);
+  }
+}
+
+@keyframes thsitg-line {
+  0%, 40%, 100% {
+    transform: translate(0px,0px);
+  }
+  
+  45%, 95% {
+    transform: translate(-50px,-50px);
+  }
+}
+
+@keyframes thsitg-line-mask {
+  0%, 40%, 100% {
+    transform: translate(0px,0px);
+  }
+  
+  45%, 95% {
+    transform: translate(50px,50px);
+  }
+}
+
+@keyframes thsitg-scroll {
+  0%, 40%, 100% {
+    transform: scale(1) rotate(-60deg);
+  }
+  
+  42%, 98% {
+    transform: scale(0) rotate(-60deg);
+  }
+}
+
+@keyframes thsitg-scroll-highlight {
+  0%, 40%, 100% {
+    transform: scale(1);
+  }
+  
+  42%, 98% {
+    transform: scale(0);
+  }
+}
+
+/* Animations for lab's logo */
+@keyframes lab-line {
+  50%, 90% {
+    stroke-width: 12;
+  }
+  0%, 45%, 95%, 100% {
+    stroke-width: 0;
+  }
+}
+
+@keyframes lab-circle {
+  48.5%, 90% {
+    box-shadow: rgba(26,35,126,0.2) 0 4px 4px;
+    transform: scale(1);
+  }
+  0%, 45%, 93.5%, 100% {
+    box-shadow: rgba(26,35,126,0.2) 0 0 0;
+    transform: scale(0);
+  }
+}
+
+/* Animations for titles */
+@keyframes title-thsitg {
+  0%, 40%, 100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(300px);
+  }
+  90% {
+    transform: translateX(-300px);
+  }
+  95% {
+    opacity: 0;
+  }
+}
+
+@keyframes title-lab {
+  0%, 40% {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  50%, 90% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+}

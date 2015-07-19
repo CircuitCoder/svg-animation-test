@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import "presets.css";
+@import "animate.css";
+
+body {
+  overflow-x: hidden;
+  animation: body 10s ease 0s infinite;
+}
+
+.container {
+  margin-top: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 908px;
+}
+
+.logo {
+  float: right;
+  display: block;
+  position: relative;
+  width: 288px;
+  height: 288px;
+}
+
+.logo svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Animations for logos */
+/* Common */
+.logo #background #backgroundPath{
+  animation: background 10s ease 0s infinite;
+}
+
+.logo #lighting #shade{
+  animation: shade 10s ease 0s infinite;
+}
+
+/* THSITG */
+.logo #thsitg #highlightThsitg {
+  animation: thsitg-background 10s ease 0s infinite;
+}
+
+.logo #thsitg #groupBody{
+  transform-origin: center;
+  animation: thsitg-mouse 10s ease 0s infinite;
+}
+
+.logo #thsitg #highlightBody{
+  transform-origin: center;
+  animation: thsitg-mouse 10s ease 0s infinite;
+}
+
+.logo #thsitg #line{
+  transform-origin: center;
+  animation: thsitg-line 10s ease 0s infinite;
+}
+
+.logo #thsitg #groupLine #maskLinePath {
+  animation: thsitg-line-mask 10s ease 0s infinite;
+}
+
+.logo #thsitg #scroll {
+  transform-origin: center;
+  animation: thsitg-scroll 10s ease 0s infinite;
+}
+
+.logo #thsitg #highlightScroll {
+  transform-origin: center;
+  animation: thsitg-scroll-highlight 10s ease 0s infinite;
+}
+
+/* Lab */
+.logo #lab #groupLine line, .logo #lab #groupLine polyline {
+  animation: lab-line 10s ease 0s infinite;
+}
+
+.logo #lab #groupCircle1 {
+  transform-origin: center;
+  transform: scale(0);
+  animation: lab-circle 10s ease 0s infinite;
+}
+
+.logo #lab #groupCircle2 {
+  transform-origin: center;
+  transform: scale(0);
+  animation: lab-circle 10s ease 0.05s infinite;
+}
+
+.logo #lab #groupCircle3 {
+  transform-origin: center;
+  transform: scale(0);
+  animation: lab-circle 10s ease 0.1s infinite;
+}
+
+.logo #lab #groupCircle4 {
+  transform-origin: center;
+  transform: scale(0);
+  animation: lab-circle 10s ease 0.15s infinite;
+}
+
+/*********************/
+/* Styles & animations for titles */
+.title {
+  float: right;
+  display: block;
+  position: relative;
+  width: 600px;
+  margin-left: 20px;
+  height: 288px;
+  line-height: 288px;
+  font-size: 120px;
+  font-weight: 200;
+  box-sizing: border-box;
+  
+  font-family: RobotoDraft,Roboto,"Noto Sans CJK SC","Lucida Grande",Helvetica,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+
+.title > * {
+  position: absolute;
+  width: 600px;
+  left: 0;
+  top: 0;
+  color: white;
+}
+
+.title .thsitg {
+  animation: title-thsitg 10s ease 0s infinite;
+}
+
+.title .lab {
+  animation: title-lab 10s ease 0s infinite;
+}

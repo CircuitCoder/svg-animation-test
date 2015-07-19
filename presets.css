@@ -1,0 +1,25 @@
+#lab .st0{fill:#2196F3;}
+#lab .st1{clip-path:url(#lineMask_1_);fill:none;stroke:#BBDEFB;stroke-width:12;stroke-miterlimit:10;}
+#lab .st2{fill:#BBDEFB;}
+#lab .st3{fill:#42A5F5;}
+#lab .st4{opacity:0.2;fill:#FFFFFF;}
+#lab .st5{opacity:0.2;fill:#1A237E;}
+#lab .st6{fill:url(#lighting_1_);}
+
+#thsitg .st0{fill:#424242;}
+#thsitg .st1{clip-path:url(#maskLinePath);fill:none;stroke:#757575;stroke-width:6;stroke-miterlimit:10;}
+#thsitg .st2{fill:#E0E0E0;}
+#thsitg .st3{fill:#F5F5F5;}
+#thsitg .st4{opacity:0.1;}
+#thsitg .st5{fill:#212121;}
+#thsitg .st6{fill:#FFFFFF;}
+#thsitg .st7{fill:#BDBDBD;}
+#thsitg .st8{opacity:0.1;fill:#FFFFFF;}
+#thsitg .st9{opacity:0.1;fill:#212121;}
+#thsitg .st10{opacity:0.2;fill:#212121;}
+#thsitg .st11{opacity:0.2;fill:#FFFFFF;}
+#thsitg .st12{fill:url(#lighting_1_);}
+
+#lighting #tint{opacity:0.2;fill:#FFFFFF;}
+#lighting #shade{opacity:0.2;}
+#lighting #lightingPath {fill:url(#lighting_1_);}
